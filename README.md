@@ -12,6 +12,7 @@ Dr. Jim McNamara, Boise State Geosciences
 ### Repository information: 
        (1) Metadata
        (2) Features
+              (a) Parameterizing the reservoir (qinit.f90)
        (3) Plotting Lagrangian Particles
        (4)
        (5) Running the Simulation
@@ -20,6 +21,7 @@ Dr. Jim McNamara, Boise State Geosciences
        TetonLarge.topo sourced from: dds.cr.usgs.gov at 30 m resolution
        TetonLatLong.topo sourced from: dds.cr.usgs.gov at 10 m resolution
 #### (2) Features ####
+       qinit.f90 is a file included in this repository that is necessary for defining the Teton Reservoir (17 river miles upstream).
 #### (3) Plotting Lagrangian particles ####
 #### (4) Insert the information ####
 #### (5) Running the simulation ####
@@ -35,5 +37,12 @@ Dr. Jim McNamara, Boise State Geosciences
        (6) $ make plots (plots results in _plots/ folder)
        (7) $ make htmls (produces html verisons of files and README.txt)
 
+## **Contact** ##
+Hannah Spero
+Twitter - [@sperogeology](https://twitter.com/SperoGeology)
+Email - hannahspero11@gmail.com
+
+## Contributors :ocean:
+GeoClaw parameters set by: Hannah Spero and code co-written by: Donna Calhoun.
 
 
